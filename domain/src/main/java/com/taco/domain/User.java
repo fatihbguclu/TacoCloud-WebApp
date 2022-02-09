@@ -1,8 +1,6 @@
 package com.taco.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,7 +11,7 @@ import java.io.Serializable;
 @Entity
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
 public class User implements Serializable {
 
     private static final long serialVersionUID = -5483390214395653823L;
