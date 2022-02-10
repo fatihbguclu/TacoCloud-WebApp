@@ -29,6 +29,7 @@
         <module>web</module>
         <module>security</module>
         <module>taco</module>
+        <module>ui</module>
     </modules>
 
 
