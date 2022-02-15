@@ -30,6 +30,7 @@
         <module>security</module>
         <module>taco</module>
         <module>ui</module>
+        <module>messaging-jms</module>
     </modules>
 
 
